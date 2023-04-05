@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .mesa1{
+        @apply hover:bg-[url('../assets/table1.png')] w-56 mb-10 bg-[url('../assets/table.png')];
+    }
+}
